@@ -1,0 +1,85 @@
+.skill-section {
+    background: #0a2b3c;
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.skill {
+    width: 100%;
+}
+  
+.skill-bar {
+    background: #404040;
+    border-radius: 3px;
+    width: 100%;
+    height: 15px;
+    margin-top: 5px;
+}
+  
+#html .progress {
+    max-width: 80%;
+    height: 100%;
+    background: rgb(62, 183, 62);
+    border-radius: 3px;
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+}
+  
+  
+#css .progress {
+    max-width: 90%;
+    height: 100%;
+    background: rgb(62, 183, 62);
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+}
+  
+#javascript .progress {
+    max-width: 70%;
+    height: 100%;
+    background: rgb(62, 183, 62);
+    position: relative;
+    animation: 1s ease 0s 1 loadBars; 
+} 
+
+#react .progress {
+  max-width: 85%;
+  height: 100%;
+  background: rgb(62, 183, 62);
+  border-radius: 3px;
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+
+#vue .progress {
+  max-width: 65%;
+  height: 100%;
+  background: rgb(62, 183, 62);
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+}
+
+#python .progress {
+  max-width: 75%;
+  height: 100%;
+  background: rgb(62, 183, 62);
+  position: relative;
+  animation: 1s ease 0s 1 loadBars; 
+} 
+  
+  @keyframes loadBars{
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+    
+  }
